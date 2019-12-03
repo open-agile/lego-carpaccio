@@ -1,0 +1,168 @@
+= Lego Carpaccio
+
+== Objectif
+
+Inspiré de l'_Extreme Carpaccio_ ou _Elephant Carpaccio Programming_ d'Alistair Cockburn, l'atelier propose aux participants de découvrir la difficulté des estimations, l'intérêt des démos aux clients à chaque itération et l'importance des feedbacks réguliers.
+
+Articulé autour de la planification et de la construction de Lego en équipe, l'exercice permet aux expérimentés comme aux néophytes d'appréhender facilement les avantages et les limites de l'agilité comme elle est pratiquée généralement.
+
+== Débrief
+
+=== En guise de conclusion
+
+On peut citer la https://fr.wikipedia.org/wiki/Le_Mythe_du_mois-homme#La_loi_de_Brooks[loi de Brooks] avec la limite du travail en parallèle (_Neuf femmes ne font pas un enfant en un mois_).
+
+Tout d'abord, il y a quelques questions à poser sur le déroulé de l'atelier.
+
+L’équipe s’est-elle réorganisée pour mieux travailler ? ::
+Si non, pourquoi ? (il y a toujours au moins une personne oisive dès que le groupe atteint trois personnes).
+Alors qu’on a proposé du temps de rétrospective, celui-ci n'est en général pas pris. Même si c'est le cas, au bout de trois ou quatre itérations, l’équipe ne change plus rien (comme les rétrospectives Scrum au bout de cinq sprints…).
+
+L'équipe a-t-elle demandé plus de documentation ? ::
+Oui, la limite d’accès au doc. Si vous êtes six dans l'équipe et que vous n'avez accès qu'à un manuel, que faites-vous ?Pourquoi ne pas avoir demandé plus de manuels ? ou avoir pris des photos ? ou encore avoir téléchargé la documentation sur Google ?
+
+Voici d'autres remarques.
+
+Le travail en cours est un travail potentiellement perdu (et non payé). ::
+Je suis client. J’arrive à dix minutes, tu me dois _une sculpture_. Or, tu me livres _80 % de la sculpture_. Selon toi, il faudrait que je te paie 80 % du prix. Selon moi, je n’ai pas de sculpture terminée. Donc je ne paie rien ! On peut aller voir le contrat si tu veux, ça va occuper mes avocats...
+
+Le travail qui n’a pas de définition précise est du travail contestable. :: Comme le tri des pièces, au début de l'atelier.
+
+On ré-évalue toujours beaucoup trop tard. ::
+Normalement les équipes qui annoncent des livraisons régulières sont en retard dès le début mais n’acceptent de ré-estimer qu’au bout de cinq ou six tours, pensant qu’elles vont rattraper ce retard. En fait on ne rattrape jamais le retard. Et on n'accepte pas l’idée de produire moins que ce que l’on s’était fixé.
+
+Que faire en cas de défaut de construction ? ::
+Si l’occasion se présente, il est intéressant de signaler que trouver le défaut de construction sur un petit incrément et défaire une minute de travail est bien moins coûteux que de s'en apercevoir au bout de dix minutes...
+
+TIP: Plus de feedback pour le client, client plus content !
+
+Si une équipe est dans les clous c'est qu'en général elle a initialement pris *beaucoup* de marge.
+On peut leur signaler que c’est cool, mais dans le monde réel j’aurais signé avec leur concurrent qui me proposait la même chose au tiers du prix et deux fois plus vite.
+
+=== Plus de feedback possible
+
+Plus un élément est finement découpé, plus il est facile de :
+
+* le suivre (savoir si l’on est en retard) ;
+* l’évaluer (par exemple pour savoir combien de temps on met à placer un bloc de Lego qu’à construire toute la sculpture) ;
+* le tester (tester la sculpture une fois terminée est impossible, on ne peut pas checker l’intérieur. S’il y a un souci il faut tout démolir) ;
+* informer (je ne trouve pas une pièce, je suis à la bourre, on a un souci de qualité… Il vaut mieux le savoir tôt).
+
+Globalement, si vous ne savez pas estimer une minute de travail avec des blocs de Lego simples pour une construction avec un plan parfait et aucun changement dans les demandes du client, *qu’est-ce qui vous laisse croire que vous pouvez faire des estimations sur des projets de 700 JH sur du dev, avec un passif inconnu, une techno que vous ne maitrisez pas et une équipe pas encore constituée ?*
+
+À défaut de faire un truc correct, découper au maximum vous permettra de limiter la casse et de savoir à quel point vous êtes en train de vous planter.
+
+== Format et déroulé
+
+=== Formation des groupes
+Par groupe de X (6 max, après ça ne ressemble à rien), vous allez construire des sculptures de Lego.
+
+=== Planification sans plan (10 minutes)
+
+IMPORTANT: Passer à la suite s'ils ont fini avant.
+
+Dans une première partie, vous allez planifier la construction. 
+Vous allez me faire un beau Gantt avec des jalons et tout. 
+Vous allez avoir dix minutes de construction. 10×1 mn pour être précis.
+Ce que je vous demande pour le moment, c’est de me dire ce que j’aurais à la fin de chaque minute. 
+
+NOTE: Signaler que le niveau de détail est à leur choix (ils peuvent tout à fait dire « tu n’as rien pendant huit minutes, et à la neuvième on te file la construction entière »).
+
+À ce moment-là de l’exercice, on ne montre qu'une photo de la construction, voire la boîte du jouet.
+Qu’ils sachent ce qu’ils vont construire, mais sans détail.
+Tu peux dire que tu as fait toi-même cette construction au préalable, et qu’en solo ça a mangé quinze minutes (_do the math_, vous êtes quatre vous devriez tout finir en moins de quatre minutes !).
+
+=== Planification avec plan (5 minutes)
+
+Pendant que vous bossiez, mes ingénieurs ont fait des plans.
+Est-ce que ça vous intéresse ?
+
+NOTE: S’ils disent non, les laisser dans leur merde.
+Si oui, leur filer le plan, et proposer de replanifier pendant cinq minutes max.
+
+
+=== Le tableau de planification
+
+.Suite aux points précédents, on devrait avoir le tableau suivant :
+|===
+|Temps |Équipe 1 |Équipe 2 |Équipe 3
+
+|1
+|Phase 4
+|Rien
+|Le moteur de la voiture
+
+|2
+|Phase 8
+|Rien
+|Le bas de la voiture
+
+|3
+|Phase 12
+|Rien
+|Le haut de la voiture
+
+|...
+|...
+|...
+|...
+
+|10
+|Terminé
+|Terminé
+|Terminé
+|===
+
+=== Phase de construction
+
+WARNING: 1 minute !
+
+C'est une minute à chaque fois.
+Il faut annoncer le décompte du temps régulièrement car une minute passe très vite.
+
+À la fin de la première minute, allez voir les équipes qui doivent livrer.
+
+NOTE:  Si une équipe n'a pas prévu de livrer à cette itération, on ne va pas la voir.
+
+Contestez chaque point légitimement contestable :
+
+« On est à la moitié de la phase 4. » ::
+T’es à la phase 3.
+
+« On a fini de trier les pièces. » ::
+Pas pour moi, on ne s’est jamais mis d’accord sur ce qu’était le tri des pièces.
+
+« On est à la phase 4. » ::
+Inspectez le travail.
+Si une pièce est mal placée, leur dire qu’ils devront revenir sur ce point après coup pendant la minute suivante.
+
+=== Phase de réorganisation
+
+Demandez à ceux à qui l’on vient d’inspecter le travail — comme aux autres équipes d'ailleurs — s’ils veulent modifier leurs estimations ou leur façon de travailler.
+
+Le cas échéant relancez une minute, puis continuez.
+
+=== Manque de temps ?
+
+S'il ne vous reste plus assez de temps pour finir vos dix itérations, n'hésitez pas à arrêter subitement au bout de sept ou huit en prétextant une coupe de budget du client.
+
+== Matériel
+
+Il faut des sets de construction Lego non triviaux.
+
+Exemple : https://www.lego.com/fr-fr/product/quidditch-match-75956
+
+== Sessions
+
+.Cet atelier a été joué au moins à ces occasions :
+|===
+|Nom |Lieu |Animateurs
+
+|_Karate Dinosaur Carpaccio_
+|Agile Tour Lille 2018
+|Bernard Klymowicz et Matthieu Salikhov
+
+|_Lego Carpaccio_
+|Agile Tour Nantes 2019
+|Matthieu Salikhov et Johan Bonneau
+|===
