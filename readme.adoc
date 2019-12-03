@@ -39,7 +39,7 @@ TIP: Plus de feedback pour le client, client plus content !
 Si une équipe est dans les clous c'est qu'en général elle a initialement pris *beaucoup* de marge.
 On peut leur signaler que c’est cool, mais dans le monde réel j’aurais signé avec leur concurrent qui me proposait la même chose au tiers du prix et deux fois plus vite.
 
-=== Plus de feedback possible
+=== Débrief étendu
 
 Plus un élément est finement découpé, plus il est facile de :
 
@@ -48,14 +48,14 @@ Plus un élément est finement découpé, plus il est facile de :
 * le tester (tester la sculpture une fois terminée est impossible, on ne peut pas checker l’intérieur. S’il y a un souci il faut tout démolir) ;
 * informer (je ne trouve pas une pièce, je suis à la bourre, on a un souci de qualité… Il vaut mieux le savoir tôt).
 
-Globalement, si vous ne savez pas estimer une minute de travail avec des blocs de Lego simples pour une construction avec un plan parfait et aucun changement dans les demandes du client, *qu’est-ce qui vous laisse croire que vous pouvez faire des estimations sur des projets de 700 JH sur du dev, avec un passif inconnu, une techno que vous ne maitrisez pas et une équipe pas encore constituée ?*
+Globalement, si vous ne savez pas estimer une minute de travail avec des blocs de Lego simples pour une construction avec un plan parfait et aucun changement dans les demandes du client, *qu’est-ce qui vous laisse croire que vous pouvez faire des estimations sur des projets de 700 JH sur du dev, avec un passif inconnu, une techno que vous ne maîtrisez pas et une équipe pas encore constituée ?*
 
 À défaut de faire un truc correct, découper au maximum vous permettra de limiter la casse et de savoir à quel point vous êtes en train de vous planter.
 
 == Format et déroulé
 
 === Formation des groupes
-Par groupe de X (6 max, après ça ne ressemble à rien), vous allez construire des sculptures de Lego.
+Par groupes de X (6 max, après ça ne ressemble à rien), vous allez construire des sculptures de Lego.
 
 === Planification sans plan (10 minutes)
 
